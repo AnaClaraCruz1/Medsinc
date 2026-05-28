@@ -224,6 +224,7 @@ public class EstoqueView extends javax.swing.JFrame {
         jLabel6.setText("Unidade (Tipo)");
 
         btnSalvar.setBackground(new java.awt.Color(45, 156, 219));
+        btnSalvar.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         btnSalvar.setForeground(new java.awt.Color(255, 255, 255));
         btnSalvar.setText("Adicionar Item");
         btnSalvar.addActionListener(new java.awt.event.ActionListener() {
@@ -235,6 +236,7 @@ public class EstoqueView extends javax.swing.JFrame {
         jLabel9.setText("Quantidade Mínima ");
 
         btnExcluir.setBackground(new java.awt.Color(142, 142, 142));
+        btnExcluir.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         btnExcluir.setForeground(new java.awt.Color(255, 255, 255));
         btnExcluir.setText("Excluir");
         btnExcluir.addActionListener(new java.awt.event.ActionListener() {
@@ -251,6 +253,7 @@ public class EstoqueView extends javax.swing.JFrame {
         });
 
         btnAtualizarQuantidade.setBackground(new java.awt.Color(51, 255, 51));
+        btnAtualizarQuantidade.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         btnAtualizarQuantidade.setText("Atualizar");
         btnAtualizarQuantidade.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

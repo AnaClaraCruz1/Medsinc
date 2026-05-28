@@ -29,7 +29,7 @@
           <Group type="102" attributes="0">
               <EmptySpace min="-2" pref="183" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="2" attributes="0">
-                  <Component id="bntEntrar" alignment="2" min="-2" pref="234" max="-2" attributes="0"/>
+                  <Component id="btnEntrar" alignment="2" min="-2" pref="234" max="-2" attributes="0"/>
                   <Component id="jLabel8" alignment="2" min="-2" pref="236" max="-2" attributes="0"/>
                   <Component id="jLabel1" alignment="2" min="-2" pref="73" max="-2" attributes="0"/>
                   <Component id="jLabel2" alignment="2" min="-2" pref="73" max="-2" attributes="0"/>
@@ -54,7 +54,7 @@
               <EmptySpace max="-2" attributes="0"/>
               <Component id="txtSenha" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
-              <Component id="bntEntrar" min="-2" pref="87" max="-2" attributes="0"/>
+              <Component id="btnEntrar" min="-2" pref="87" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -104,7 +104,7 @@
         <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="Insira a sua senha "/>
       </AccessibilityProperties>
     </Component>
-    <Component class="javax.swing.JButton" name="bntEntrar">
+    <Component class="javax.swing.JButton" name="btnEntrar">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="db" green="9c" red="2d" type="rgb"/>
@@ -118,7 +118,7 @@
         <Property name="text" type="java.lang.String" value="Entrar"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bntEntrarActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEntrarActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel8">
